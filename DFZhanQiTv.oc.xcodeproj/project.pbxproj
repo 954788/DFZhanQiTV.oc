@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015372C1B649B875DA2BC31F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A25D94FBD803DBCFBDD34CAA /* libPods.a */; };
+		4F51B2691CC74ECC00C82D9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B2681CC74ECC00C82D9C /* main.m */; };
+		4F51B26C1CC74ECC00C82D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B26B1CC74ECC00C82D9C /* AppDelegate.m */; };
+		4F51B26F1CC74ECC00C82D9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B26E1CC74ECC00C82D9C /* ViewController.m */; };
+		4F51B2721CC74ECC00C82D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F51B2701CC74ECC00C82D9C /* Main.storyboard */; };
+		4F51B2741CC74ECC00C82D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F51B2731CC74ECC00C82D9C /* Assets.xcassets */; };
+		4F51B2821CC74ECC00C82D9C /* DFZhanQiTv_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B2811CC74ECC00C82D9C /* DFZhanQiTv_ocTests.m */; };
+		4F51B28D1CC74ECC00C82D9C /* DFZhanQiTv_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F51B28C1CC74ECC00C82D9C /* DFZhanQiTv_ocUITests.m */; };
+		4F51B29B1CC752A900C82D9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F51B29A1CC752A900C82D9C /* AVFoundation.framework */; };
+		4F60B0081CC9033A00C9E834 /* TvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F60B0061CC9033A00C9E834 /* TvViewController.m */; };
+		4F60B0091CC9033A00C9E834 /* TvViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F60B0071CC9033A00C9E834 /* TvViewController.xib */; };
+		4F60B0111CC9230500C9E834 /* TvCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F60B00F1CC9230500C9E834 /* TvCollectionViewCell.m */; };
+		4F60B0121CC9230500C9E834 /* TvCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F60B0101CC9230500C9E834 /* TvCollectionViewCell.xib */; };
+		4F60B0151CC9F8DF00C9E834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F60B0131CC9F8DF00C9E834 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F51B27E1CC74ECC00C82D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F51B25C1CC74ECC00C82D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F51B2631CC74ECC00C82D9C;
+			remoteInfo = DFZhanQiTv.oc;
+		};
+		4F51B2891CC74ECC00C82D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F51B25C1CC74ECC00C82D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F51B2631CC74ECC00C82D9C;
+			remoteInfo = DFZhanQiTv.oc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F51B2641CC74ECC00C82D9C /* DF战旗TV.oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DF战旗TV.oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F51B2681CC74ECC00C82D9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F51B26A1CC74ECC00C82D9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F51B26B1CC74ECC00C82D9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F51B26D1CC74ECC00C82D9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F51B26E1CC74ECC00C82D9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F51B2711CC74ECC00C82D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F51B2731CC74ECC00C82D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F51B2781CC74ECC00C82D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F51B27D1CC74ECC00C82D9C /* DFZhanQiTv.ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFZhanQiTv.ocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F51B2811CC74ECC00C82D9C /* DFZhanQiTv_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFZhanQiTv_ocTests.m; sourceTree = "<group>"; };
+		4F51B2831CC74ECC00C82D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F51B2881CC74ECC00C82D9C /* DFZhanQiTv.ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFZhanQiTv.ocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F51B28C1CC74ECC00C82D9C /* DFZhanQiTv_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFZhanQiTv_ocUITests.m; sourceTree = "<group>"; };
+		4F51B28E1CC74ECC00C82D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F51B29A1CC752A900C82D9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4F60B0051CC9033A00C9E834 /* TvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvViewController.h; sourceTree = "<group>"; };
+		4F60B0061CC9033A00C9E834 /* TvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvViewController.m; sourceTree = "<group>"; };
+		4F60B0071CC9033A00C9E834 /* TvViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TvViewController.xib; sourceTree = "<group>"; };
+		4F60B00E1CC9230500C9E834 /* TvCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TvCollectionViewCell.h; sourceTree = "<group>"; };
+		4F60B00F1CC9230500C9E834 /* TvCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TvCollectionViewCell.m; sourceTree = "<group>"; };
+		4F60B0101CC9230500C9E834 /* TvCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TvCollectionViewCell.xib; sourceTree = "<group>"; };
+		4F60B0141CC9F8DF00C9E834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DFZhanQiTv.oc/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		528D3D1BA989E809E821FE93 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A25D94FBD803DBCFBDD34CAA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4C4EF734B9005998EF8361 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F51B2611CC74ECC00C82D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51B29B1CC752A900C82D9C /* AVFoundation.framework in Frameworks */,
+				015372C1B649B875DA2BC31F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B27A1CC74ECC00C82D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B2851CC74ECC00C82D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F51B25B1CC74ECC00C82D9C = {
+			isa = PBXGroup;
+			children = (
+				4F51B29A1CC752A900C82D9C /* AVFoundation.framework */,
+				4F51B2661CC74ECC00C82D9C /* DFZhanQiTv.oc */,
+				4F51B2801CC74ECC00C82D9C /* DFZhanQiTv.ocTests */,
+				4F51B28B1CC74ECC00C82D9C /* DFZhanQiTv.ocUITests */,
+				4F51B2651CC74ECC00C82D9C /* Products */,
+				EA5DC8F3445F29F14D013E56 /* Pods */,
+				91C398628C58E799B062FCA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F51B2651CC74ECC00C82D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B2641CC74ECC00C82D9C /* DF战旗TV.oc.app */,
+				4F51B27D1CC74ECC00C82D9C /* DFZhanQiTv.ocTests.xctest */,
+				4F51B2881CC74ECC00C82D9C /* DFZhanQiTv.ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F51B2661CC74ECC00C82D9C /* DFZhanQiTv.oc */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B26A1CC74ECC00C82D9C /* AppDelegate.h */,
+				4F51B26B1CC74ECC00C82D9C /* AppDelegate.m */,
+				4F60B00D1CC922ED00C9E834 /* cell */,
+				4F51B26D1CC74ECC00C82D9C /* ViewController.h */,
+				4F51B26E1CC74ECC00C82D9C /* ViewController.m */,
+				4F51B2701CC74ECC00C82D9C /* Main.storyboard */,
+				4F60B0131CC9F8DF00C9E834 /* LaunchScreen.storyboard */,
+				4F60B00C1CC922D900C9E834 /* tv */,
+				4F51B2731CC74ECC00C82D9C /* Assets.xcassets */,
+				4F51B2781CC74ECC00C82D9C /* Info.plist */,
+				4F51B2671CC74ECC00C82D9C /* Supporting Files */,
+			);
+			path = DFZhanQiTv.oc;
+			sourceTree = "<group>";
+		};
+		4F51B2671CC74ECC00C82D9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B2681CC74ECC00C82D9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F51B2801CC74ECC00C82D9C /* DFZhanQiTv.ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B2811CC74ECC00C82D9C /* DFZhanQiTv_ocTests.m */,
+				4F51B2831CC74ECC00C82D9C /* Info.plist */,
+			);
+			path = DFZhanQiTv.ocTests;
+			sourceTree = "<group>";
+		};
+		4F51B28B1CC74ECC00C82D9C /* DFZhanQiTv.ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F51B28C1CC74ECC00C82D9C /* DFZhanQiTv_ocUITests.m */,
+				4F51B28E1CC74ECC00C82D9C /* Info.plist */,
+			);
+			path = DFZhanQiTv.ocUITests;
+			sourceTree = "<group>";
+		};
+		4F60B00C1CC922D900C9E834 /* tv */ = {
+			isa = PBXGroup;
+			children = (
+				4F60B0051CC9033A00C9E834 /* TvViewController.h */,
+				4F60B0061CC9033A00C9E834 /* TvViewController.m */,
+				4F60B0071CC9033A00C9E834 /* TvViewController.xib */,
+			);
+			name = tv;
+			sourceTree = "<group>";
+		};
+		4F60B00D1CC922ED00C9E834 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F60B00E1CC9230500C9E834 /* TvCollectionViewCell.h */,
+				4F60B00F1CC9230500C9E834 /* TvCollectionViewCell.m */,
+				4F60B0101CC9230500C9E834 /* TvCollectionViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		91C398628C58E799B062FCA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25D94FBD803DBCFBDD34CAA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5DC8F3445F29F14D013E56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC4C4EF734B9005998EF8361 /* Pods.debug.xcconfig */,
+				528D3D1BA989E809E821FE93 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F51B2631CC74ECC00C82D9C /* DFZhanQiTv.oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F51B2911CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.oc" */;
+			buildPhases = (
+				1500F9C75D482C478C8AEC5D /* Check Pods Manifest.lock */,
+				4F51B2601CC74ECC00C82D9C /* Sources */,
+				4F51B2611CC74ECC00C82D9C /* Frameworks */,
+				4F51B2621CC74ECC00C82D9C /* Resources */,
+				B051A804D9A453EFFE8352AC /* Embed Pods Frameworks */,
+				2DC33C2AB9F90F2C9D586B9A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFZhanQiTv.oc;
+			productName = DFZhanQiTv.oc;
+			productReference = 4F51B2641CC74ECC00C82D9C /* DF战旗TV.oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F51B27C1CC74ECC00C82D9C /* DFZhanQiTv.ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F51B2941CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.ocTests" */;
+			buildPhases = (
+				4F51B2791CC74ECC00C82D9C /* Sources */,
+				4F51B27A1CC74ECC00C82D9C /* Frameworks */,
+				4F51B27B1CC74ECC00C82D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F51B27F1CC74ECC00C82D9C /* PBXTargetDependency */,
+			);
+			name = DFZhanQiTv.ocTests;
+			productName = DFZhanQiTv.ocTests;
+			productReference = 4F51B27D1CC74ECC00C82D9C /* DFZhanQiTv.ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F51B2871CC74ECC00C82D9C /* DFZhanQiTv.ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F51B2971CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.ocUITests" */;
+			buildPhases = (
+				4F51B2841CC74ECC00C82D9C /* Sources */,
+				4F51B2851CC74ECC00C82D9C /* Frameworks */,
+				4F51B2861CC74ECC00C82D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F51B28A1CC74ECC00C82D9C /* PBXTargetDependency */,
+			);
+			name = DFZhanQiTv.ocUITests;
+			productName = DFZhanQiTv.ocUITests;
+			productReference = 4F51B2881CC74ECC00C82D9C /* DFZhanQiTv.ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F51B25C1CC74ECC00C82D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "粱展焯";
+				TargetAttributes = {
+					4F51B2631CC74ECC00C82D9C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4F51B27C1CC74ECC00C82D9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F51B2631CC74ECC00C82D9C;
+					};
+					4F51B2871CC74ECC00C82D9C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4F51B2631CC74ECC00C82D9C;
+					};
+				};
+			};
+			buildConfigurationList = 4F51B25F1CC74ECC00C82D9C /* Build configuration list for PBXProject "DFZhanQiTv.oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F51B25B1CC74ECC00C82D9C;
+			productRefGroup = 4F51B2651CC74ECC00C82D9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F51B2631CC74ECC00C82D9C /* DFZhanQiTv.oc */,
+				4F51B27C1CC74ECC00C82D9C /* DFZhanQiTv.ocTests */,
+				4F51B2871CC74ECC00C82D9C /* DFZhanQiTv.ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F51B2621CC74ECC00C82D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F60B0121CC9230500C9E834 /* TvCollectionViewCell.xib in Resources */,
+				4F51B2741CC74ECC00C82D9C /* Assets.xcassets in Resources */,
+				4F60B0151CC9F8DF00C9E834 /* LaunchScreen.storyboard in Resources */,
+				4F60B0091CC9033A00C9E834 /* TvViewController.xib in Resources */,
+				4F51B2721CC74ECC00C82D9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B27B1CC74ECC00C82D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B2861CC74ECC00C82D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1500F9C75D482C478C8AEC5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC33C2AB9F90F2C9D586B9A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B051A804D9A453EFFE8352AC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F51B2601CC74ECC00C82D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51B26F1CC74ECC00C82D9C /* ViewController.m in Sources */,
+				4F51B26C1CC74ECC00C82D9C /* AppDelegate.m in Sources */,
+				4F60B0081CC9033A00C9E834 /* TvViewController.m in Sources */,
+				4F60B0111CC9230500C9E834 /* TvCollectionViewCell.m in Sources */,
+				4F51B2691CC74ECC00C82D9C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B2791CC74ECC00C82D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51B2821CC74ECC00C82D9C /* DFZhanQiTv_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F51B2841CC74ECC00C82D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F51B28D1CC74ECC00C82D9C /* DFZhanQiTv_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F51B27F1CC74ECC00C82D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F51B2631CC74ECC00C82D9C /* DFZhanQiTv.oc */;
+			targetProxy = 4F51B27E1CC74ECC00C82D9C /* PBXContainerItemProxy */;
+		};
+		4F51B28A1CC74ECC00C82D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F51B2631CC74ECC00C82D9C /* DFZhanQiTv.oc */;
+			targetProxy = 4F51B2891CC74ECC00C82D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F51B2701CC74ECC00C82D9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F51B2711CC74ECC00C82D9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F60B0131CC9F8DF00C9E834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F60B0141CC9F8DF00C9E834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F51B28F1CC74ECC00C82D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F51B2901CC74ECC00C82D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F51B2921CC74ECC00C82D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4C4EF734B9005998EF8361 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DFZhanQiTv.oc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-oc";
+				PRODUCT_NAME = "DF战旗TV.oc";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4F51B2931CC74ECC00C82D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528D3D1BA989E809E821FE93 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DFZhanQiTv.oc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-oc";
+				PRODUCT_NAME = "DF战旗TV.oc";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4F51B2951CC74ECC00C82D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFZhanQiTv.ocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFZhanQiTv.oc.app/DFZhanQiTv.oc";
+			};
+			name = Debug;
+		};
+		4F51B2961CC74ECC00C82D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DFZhanQiTv.ocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFZhanQiTv.oc.app/DFZhanQiTv.oc";
+			};
+			name = Release;
+		};
+		4F51B2981CC74ECC00C82D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFZhanQiTv.ocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFZhanQiTv.oc;
+			};
+			name = Debug;
+		};
+		4F51B2991CC74ECC00C82D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DFZhanQiTv.ocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.DFZhanQiTv-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFZhanQiTv.oc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F51B25F1CC74ECC00C82D9C /* Build configuration list for PBXProject "DFZhanQiTv.oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F51B28F1CC74ECC00C82D9C /* Debug */,
+				4F51B2901CC74ECC00C82D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F51B2911CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F51B2921CC74ECC00C82D9C /* Debug */,
+				4F51B2931CC74ECC00C82D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F51B2941CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F51B2951CC74ECC00C82D9C /* Debug */,
+				4F51B2961CC74ECC00C82D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F51B2971CC74ECC00C82D9C /* Build configuration list for PBXNativeTarget "DFZhanQiTv.ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F51B2981CC74ECC00C82D9C /* Debug */,
+				4F51B2991CC74ECC00C82D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F51B25C1CC74ECC00C82D9C /* Project object */;
+}
