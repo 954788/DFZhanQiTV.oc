@@ -1,1 +1,2 @@
 #DFZhanQiTV.oc
+use AVPlayer
