@@ -38,7 +38,7 @@
     
     //---PlayView---
     _playView = [[UIView alloc]init];
-    _playView.frame = CGRectMake(0, 64, 375, 380*9/16);
+    _playView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_WIDTH*9/16);
     [self.view addSubview:_playView];
     
     //---AVPlayerItem---
@@ -99,7 +99,7 @@
         
          _toolbar.hidden = YES;
         
-        _playView.frame = CGRectMake(0, 64, 375, 380*9/16);
+        _playView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_WIDTH*9/16);
         
         _toolbar.frame = CGRectMake(0, _playView.frame.size.height-40, _playView.frame.size.width, 40);
         
@@ -112,7 +112,7 @@
         
          _toolbar.hidden = YES;
         
-        _playView.frame = CGRectMake(0, 0, 667, 375);
+        _playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         
         _toolbar.frame = CGRectMake(0, _playView.frame.size.height-40, _playView.frame.size.width, 40);
         
@@ -124,7 +124,7 @@
         
          _toolbar.hidden = YES;
         
-        _playView.frame = CGRectMake(0, 0, 667, 375);
+        _playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         
         _toolbar.frame = CGRectMake(0, _playView.frame.size.height-40, _playView.frame.size.width, 40);
         
